@@ -1,0 +1,58 @@
+Arguments: 
+  /Users/gefangshuai/.nvm/versions/node/v10.20.1/bin/node /Users/gefangshuai/.yarn/bin/yarn.js add postcss
+
+PATH: 
+  /Users/gefangshuai/.nvm/versions/node/v10.20.1/bin:/Users/gefangshuai/.yarn/bin:/Users/gefangshuai/.config/yarn/global/node_modules/.bin:/Users/gefangshuai/.jenv/shims:/Users/gefangshuai/.jenv/bin:/usr/local/opt/node@8/bin:/usr/local/Cellar/mongodb-community/4.2.5/bin:/usr/local/opt/maven@3.5/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Users/gefangshuai/Documents/Dev/myspace/projects/postcss-px2rem/node_modules/.bin:/Users/gefangshuai/Documents/Dev/scripts/paths/
+
+Yarn version: 
+  1.22.4
+
+Node version: 
+  10.20.1
+
+Platform: 
+  darwin x64
+
+Trace: 
+  SyntaxError: /Users/gefangshuai/Documents/Dev/myspace/projects/postcss-px2rem/package.json: Unexpected token / in JSON at position 250
+      at JSON.parse (<anonymous>)
+      at /Users/gefangshuai/.yarn/lib/cli.js:1625:59
+      at Generator.next (<anonymous>)
+      at step (/Users/gefangshuai/.yarn/lib/cli.js:310:30)
+      at /Users/gefangshuai/.yarn/lib/cli.js:321:13
+
+npm manifest: 
+  {
+    "name": "postcss-px2rem",
+    "version": "0.0.6",
+    "description": "Based on postcss-px2rem added the exclude folder options.",
+    "main": "index.js",
+    "scripts": {
+      "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "dependencies": {
+  //    "postcss": "^5.0.0",
+  //    "px2rem": "~0.5.0"
+    },
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/saionjisekai/px2rem-postcss.git"
+    },
+    "keywords": [
+      "postcss",
+      "px2rem",
+      "exclude"
+    ],
+    "author": "sekai",
+    "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/saionjisekai/px2rem-postcss/issues"
+    },
+    "homepage": "https://github.com/saionjisekai/px2rem-postcss#readme"
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
