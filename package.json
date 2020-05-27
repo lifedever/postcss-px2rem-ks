@@ -1,6 +1,6 @@
 {
     "name": "postcss-px2rem-ks",
-    "version": "1.0.2",
+    "version": "1.0.3",
     "description": "Based on postcss-px2rem added the exclude folder options.",
     "main": "index.js",
     "scripts": {
